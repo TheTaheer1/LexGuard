@@ -34,8 +34,8 @@ export default function Dashboard({ analysis }) {
 
       {/* Distribution Chart */}
       <div className="glass-card p-6 flex flex-col">
-        <h3 className="text-sm font-medium text-white/60 mb-4 uppercase tracking-wider">Risk Distribution</h3>
-        <div className="flex-1 min-h-[160px] relative">
+        <h3 className="text-sm font-medium text-white/60 mb-4 uppercase tracking-wider text-center">Risk Distribution</h3>
+        <div className="h-[160px] w-full relative mt-auto mb-auto">
           {pieData.length > 0 ? (
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
